@@ -2,3 +2,5 @@
 
 fin project rm -f
 fin project start
+fin exec composer install
+fin drush si --db-url=mysql://user:user@db/default -y
